@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link href="style_head.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="page-header">
+      <div class="logo">
+        <p><img src="/logos/2560px-Mahle_logo.svg.png" alt="Mahlelogo"></p>
+      </div>
+      <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+      </a>
+
+      <div id="navigation-bar" class="nav-bar">
+        <a href="index_head.html" class="active">Home</a>
+        <a href="#">Instructions</a>
+        <a href="#">Profile</a>
+        <a href="#">About</a>
+        <a href="#" id="navbar">Contact us</a>
+        <div id="window">
+          <h3>Contact Us</h3>
+          <ul>
+            <li class="phone">Phone:<a href="tel:+918306499040">+918306499040</a></li>
+            <li class="email">Email:<a href="mailto:Raviranjan0491@gmail.com">Raviranjan0491@gmail.com</a></li>
+            <li class="adr">Address: National Inatitute Of Technology, Kurukshetra</li>
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="header-right">
+      </div>
+    </div>
+
+    <div id="left-side">
+      <h6>How to play*</h6>
+
+    </div>
+
+    <div id="game-section">
+      <h1>Game Section</h1>
+      <form id="nameForm" action="display.html">
+        <label for="name" id="nlabel">Enter Player Name:</label>
+        <input type="text" id="nameInput" placeholder="full name" />
+        <br />
+        <label for="game" id="selgame">Select Game Type:</label>
+        <br />
+        <label class="radio-label">
+          <input class="opt" type="radio" name="option" value="page1" />
+          Hand-Eye Coordination
+        </label>
+        <br />
+        <label class="radio-label">
+          <input class="opt" type="radio" name="option" value="page2" />
+          Decision Making
+        </label>
+        <br />
+        <label class="radio-label">
+          <input class="opt" type="radio" name="option" value="page3" />
+          Advanced Hand-Eye Coordination
+        </label>
+        <br />
+        <button type="submit">Start Game</button>
+      </form>
+    </div>
+
+      <div id="right-side">
+        <h6>Right Section</h6>
+      </div>
+  
+      <footer id="footer-section">
+  
+      </footer>
+      <script src="script_head.js"></script>
+  </body>
+</html>
